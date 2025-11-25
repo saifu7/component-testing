@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Weather.Service.Contract/1.0.0": {
+        "runtime": {
+          "Weather.Service.Contract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Weather.Service.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "bindingCulture": "en-us",
+  "language": "en-us",
+  "stepAssemblies": [
+    {
+      "assembly": "Weather.Api.ComponentTests"
+    }
+  ]
+}

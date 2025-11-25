@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Weather.Api.ComponentTests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Weather.Service\Weather.Service.csproj" />
+    <ProjectReference Include="..\Weather.Service.Contract\Weather.Service.Contract.csproj" />
+    <ProjectReference Include="..\Weather.Gateway\Weather.Gateway.csproj" />
+    <ProjectReference Include="..\Weather.Gateway.Contract\Weather.Gateway.Contract.csproj" />
+    <ProjectReference Include="..\Weather.WebCaller\Weather.WebCaller.csproj" />
+  </ItemGroup>
+
+</Project>
